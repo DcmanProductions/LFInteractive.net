@@ -7,12 +7,15 @@ let scroll = new LocomotiveScroll({
 (() => {
     let nav = $('nav')[0]
     scroll.on('scroll', e => {
-        if (e.scroll.y <= 10) {
-            nav.classList.remove("collapsed");
-            nav.classList.add("expanded");
-        } else {
-            nav.classList.add("collapsed");
-            nav.classList.remove("expanded");
+        if (!nav.classList.contains("force-collapsed")) {
+
+            if (e.scroll.y <= 10) {
+                nav.classList.remove("collapsed");
+                nav.classList.add("expanded");
+            } else {
+                nav.classList.add("collapsed");
+                nav.classList.remove("expanded");
+            }
         }
     })
 
