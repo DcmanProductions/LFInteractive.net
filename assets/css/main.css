@@ -10,6 +10,7 @@
 }
 
 body {
+    color: white;
     background: black;
     overflow: overlay;
     margin: 0;
@@ -219,4 +220,18 @@ footer {
 .user-card .user-image {
     border-radius: 180%;
     margin-top: -25%;
+}
+
+.blueprint-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+
+}
+
+.blueprint-container iframe {
+    width: 70%;
+    height: 658px;
 }
