@@ -9,7 +9,7 @@ function downloadFile() {
         let elm = document.createElement('a')
         elm.href = URL.createObjectURL(data);
         elm.setAttribute('download', name);
-        // elm.click();
+        elm.click();
     })
 
 }
