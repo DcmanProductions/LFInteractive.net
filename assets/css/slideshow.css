@@ -11,7 +11,7 @@
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     z-index: 2;
     background: radial-gradient(transparent, black), linear-gradient(0deg, black, transparent);
 }
@@ -20,7 +20,7 @@
     position: absolute;
     min-width: 100vw;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
     transition: opacity 1s;
 }
@@ -34,7 +34,7 @@
 
 .slide img {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
 }
 
 .slide .slide-content {

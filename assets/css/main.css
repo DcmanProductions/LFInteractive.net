@@ -100,7 +100,8 @@ a:not(.button):hover::after {
 .list.large.wide .list-item {
     width: 80%;
     height: 50vh;
-    min-height: 50vh;
+    min-height: 300px;
+    max-height: 400px;
     display: flex;
 }
 
@@ -144,6 +145,8 @@ section h2 {
 }
 
 .banner {
+    min-height: 400px;
+    max-height: 500px;
     height: 50vh;
     width: 100vw;
     background-color: var(--background);
