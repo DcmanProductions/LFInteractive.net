@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <nav class="collapsed force-collapsed">
+    <nav class="collapsed">
         <a id="branding" href="/"><img src="/assets/images/logo-light.svg" alt="LFInteractive"></a>
         <div id="nav-items">
             <a class="nav-item" href="/">Home</a>
@@ -24,8 +24,19 @@
         </div>
         </div>
     </nav>
-    <main data-scroll-container style="margin-top: 150px;">
+    <main data-scroll-container>
 
+        <div id="landing" class="slideshow" data-duration="5">
+            <div class="slide active">
+                <div class="slide-content">
+                    <h1>Documentation</h1>
+                    <!-- <iframe width="514" height="289" src="https://www.youtube-nocookie.com/embed/LQ7c8Y0IHX4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                    <!-- <a href="/Products/Games/Artifact-The-Journey-Unraveled/" class="primary button">Learn More</a> -->
+                </div>
+                <img src="/assets/images/documentation_landing_image.jpg" alt="" class="slide-background">
+            </div>
+            <div id="scroll-down-cta"><i class="fa-regular fa-circle-down"></i></div>
+        </div>
         <section class="banner">
             <div class="banner-info">
                 <h2>Unreal</h2>
@@ -44,6 +55,14 @@
                         <a class="list-cta button primary" href="unreal-engine/lfs-interaction-system/">Learn More</a>
                     </div>
                     <img src="/assets/images/LFInteractionSystem-Icon.png" alt="LF's Interaction System" class="list-image">
+                </div>
+                <div class="list-item">
+                    <div class="list-info">
+                        <div class="list-title">LF's Inventory Plugin</div>
+                        <div class="list-description">Allows you to create a robust inventory system with crafting support</div>
+                        <a class="list-cta button primary" href="unreal-engine/lfs-inventory-plugin/">Learn More</a>
+                    </div>
+                    <img src="/assets/images/lf-inventory-plugin-icon.png" alt="LF's Interaction System" class="list-image">
                 </div>
             </div>
         </section>
